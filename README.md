@@ -72,10 +72,13 @@ Les méthodes suivantes sont utilisées pour construire l’interface graphique 
 
 ## Schéma de la Base de Données
 
+![Texte alternatif](URL_de_l'image)
+
 La base de données MySQL est structurée en deux tables principales :
 
-### **Table Utilisateurs**  
+### **Table Utilisateurs et Table Questions**  
 Contient les informations d’identification des utilisateurs et leurs scores.
+Stocke les questions, les catégories, les niveaux de difficulté, et les réponses correctes.
 ```sql
 CREATE TABLE user (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -85,8 +88,6 @@ CREATE TABLE user (
     score INT
 );
 
-Table Questions
-Stocke les questions, les catégories, les niveaux de difficulté, et les réponses correctes.
 
 sql
 Copier le code
