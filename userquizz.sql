@@ -127,9 +127,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`id_user`, `nom`, `pass`, `universite`, `score`) VALUES
 (1, 'Victor DAH', '12345678', 'Universite Virtuelle', 90),
-(2, 'Ella DABIRE', '87654321', 'UV', 90),
-(3, 'subtoon', 'subtoon', 'subtoon', 0),
-(4, 'Severin DAH', '852', 'CPK', 20);
+(2, 'Ella DABIRE', '87654321', 'UV', 90);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
