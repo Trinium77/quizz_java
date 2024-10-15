@@ -72,7 +72,7 @@ Les méthodes suivantes sont utilisées pour construire l’interface graphique 
 
 ## Schéma de la Base de Données
 
-![Texte alternatif](URL_de_l'image)
+![Shema de la base de donne](dataBase.png)
 
 La base de données MySQL est structurée en deux tables principales :
 
